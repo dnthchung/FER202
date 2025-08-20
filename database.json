@@ -1,0 +1,83 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "Inception",
+      "genre": "Sci-Fi",
+      "releaseYear": 2010,
+      "duration": 148,
+      "rating": 4.8,
+      "poster": "51v5ZpFyaFL._AC_SY445_.jpg",
+      "booked": 0
+    },
+    {
+      "id": "2",
+      "title": "Interstellar",
+      "genre": "Sci-Fi",
+      "releaseYear": 2014,
+      "duration": 169,
+      "rating": 4.7,
+      "poster": "OIP.jfif",
+      "booked": 0
+    },
+    {
+      "id": "3",
+      "title": "Parasite",
+      "genre": "Thriller",
+      "releaseYear": 2019,
+      "duration": 132,
+      "rating": 4.6,
+      "poster": "Parasite.webp",
+      "booked": 2
+    },
+    {
+      "id": "4",
+      "title": "The Godfather",
+      "genre": "Crime",
+      "releaseYear": 1972,
+      "duration": 175,
+      "rating": 4.9,
+      "poster": "OIP (1).jfif",
+      "booked": 0
+    },
+    {
+      "id": "5",
+      "title": "The Dark Knight",
+      "genre": "Action",
+      "releaseYear": 2008,
+      "duration": 152,
+      "rating": 4.9,
+      "poster": "R.jfif",
+      "booked": 0
+    },
+    {
+      "id": "6",
+      "title": "Spirited Away",
+      "genre": "Animation",
+      "releaseYear": 2001,
+      "duration": 125,
+      "rating": 4.8,
+      "poster": "R (1).jfif",
+      "booked": 0
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "userId": 2,
+      "movieId": 3,
+      "showTime": "2025-06-15T20:00",
+      "seats": 2
+    }
+  ]
+}
